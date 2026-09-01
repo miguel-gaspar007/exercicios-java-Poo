@@ -1,6 +1,5 @@
 
-
-public class ex01 {
+public class aula02 {
     public static void main(String[] args) {
         //tipagem estatica
         int idade = 19; //campo só guarda numeros
@@ -26,7 +25,7 @@ public class ex01 {
        
 
         //int soma;
-        //Valores padrão importam: variáveis locais (dentro de um método) não têm valor padrão. Usar antes de atribuir é erro de compilação:
+        //Valores padrão importam: variáveis locais (dentro de um metodo) não têm valor padrão. Usar antes de atribuir é erro de compilação:
         //System.out.println(soma);   // ❌ error: variable soma might not have been initialized
 
         String frase = "Java é uma linguagem de programação legal";
@@ -45,6 +44,45 @@ public class ex01 {
         double media = 0.85;
         int arredondamento= 2; 
         System.out.printf("Olá, %s! A sua média é:%n%.2f.%nVenho através desse email comunicar o arredondamento da sua nota para %d.",nome, media, arredondamento);
+
+        //Casting e a armadilha da divisão inteira  ---java converte automaticamente quando não há riscos de perder informação ( caixa
+        int inteiro = 10;
+        double comDecimais = inteiro; // 10.0 cabe tranquilamento em 10.00 (double é número com 2 casas decimais)
+        System.out.println("\n\n\n10 de int para double: "+comDecimais);
+
+       // No sentido contrário, você precisa assumir a responsabilidade com um ----------CAST---------- :
+        double valor =0.99;
+        //int truncado = valor; --> não vai funcionar, possível conversão com perdas de double para int.
+        int truncado = (int)valor; //--> Assim funciona, assumindo a responsabilidade pelo cast
+        System.out.println("0.99 em double para INT: "+truncado);
+
+
+        System.out.println("E aqui está o erro que mais estraga cálculo de média no mundo:");
+        //E aqui está o erro que mais estraga cálculo de média no mundo:
+        //int soma = 7;
+        //int quantidade = 2;
+        //System.out.println(soma / quantidade);              // 3    ← divisão INTEIRA! 😱
+        //System.out.println((double) soma / quantidade);     // 3.5  ✅
+        //System.out.println(7 / 2.0);                        // 3.5  ✅
+        //System.out.println(7 % 2);                          // 1    (resto da divisão)
+        int soma = 7;
+        int soma2 = 2;
+        System.out.println((double)soma/soma2); // --> funciona, se o resultado do calculo terá o retorno com decimais,é necessário tipar , como no mínimo double, se não float.
+        System.out.println(11 / 2.0);
+        System.out.println(11 / 2);
+        System.out.println(7%2); // --> resto da divisão
+        //Regra: int / int sempre dá int. Se você quer casas decimais, pelo menos um dos lados precisa ser double.
+
+        // final: quando o valor não pode mudar
+        final double PI = 3.14159;
+        final int IDADE_MINIMA;
+        // PI =3.15; // Cannot assign a value to final variable 'PI' ( constantes imutáveis)
+        // Constantes são escritas em MAIUSCULA_COM_UNDERLINE, por convenção.
+        // Use final sempre que um valor não deveria mudar: o compilador passa a proteger essa decisão.
+
+
+
+
     }
 
 }
