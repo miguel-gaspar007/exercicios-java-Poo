@@ -2,7 +2,7 @@ package aula02exercicios;
 import java.util.Scanner;
 
 public class Apresentacao2 {
-        static void main() {
+        static void main(String[] args) {
             // declare variáveis com seu nome (String), idade (int), altura (double) e se estuda à noite (boolean);
             // imprima uma apresentação em uma frase usando printf, com a altura em 2 casas decimais;
             Scanner scanner = new Scanner(System.in);
