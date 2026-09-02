@@ -1,7 +1,7 @@
 package aula02exercicios;
 import java.util.Scanner;
 public class Apresentacao {
-    static void main() {
+    public static void main() {
         // declare variáveis com seu nome (String), idade (int), altura (double) e se estuda à noite (boolean);
         // imprima uma apresentação em uma frase usando printf, com a altura em 2 casas decimais;
         String nome = "Miguel";

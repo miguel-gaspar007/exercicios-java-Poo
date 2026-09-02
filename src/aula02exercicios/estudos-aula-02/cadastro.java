@@ -4,7 +4,7 @@
 import java.util.Scanner; // --> importa scanner  , antes da classe
 
 public class cadastro {
-    static void main(String[] args){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in); // --> criando scanner. PS: "Scanner" é a classe do Java e "scanner" é a variavel que criamos
 
             System.out.print("Seu nome é: ");

@@ -2,7 +2,7 @@ package aula02exercicios;
 import java.util.Scanner;
 
 public class Apresentacao2 {
-        static void main(String[] args) {
+        public static void main(String[] args) {
             // declare variáveis com seu nome (String), idade (int), altura (double) e se estuda à noite (boolean);
             // imprima uma apresentação em uma frase usando printf, com a altura em 2 casas decimais;
             Scanner scanner = new Scanner(System.in);
@@ -10,7 +10,8 @@ public class Apresentacao2 {
             String nome = "Miguel";
             int idade = 18;
             double altura = 1.89;
-            boolean estudaNoite;//código irá fazer a minha apresentação e me perguntar se estudo ou não à noite.
+            boolean estudaNoite;
+            //código irá fazer a minha apresentação e me perguntar se estudo ou não à noite.
 
             while(true) {
                 System.out.print("Você estuda à noite? [S/N]");
