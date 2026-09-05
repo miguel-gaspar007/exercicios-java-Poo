@@ -1,4 +1,4 @@
-package aula01exercicios;
+package bloco1.aula01exercicios;
 
 public class erros {
     static void main() { // psvm tab

@@ -1,4 +1,4 @@
-package aula02exercicios;
+package bloco1.aula02exercicios;
 import java.util.Scanner;
 public class Imc {
     // leia nome, peso e altura do teclado; calcule o IMC (peso / (altura * altura)) e imprima assim: Maria, seu IMC é

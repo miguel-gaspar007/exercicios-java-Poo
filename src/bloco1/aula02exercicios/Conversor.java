@@ -1,4 +1,4 @@
-package aula02exercicios;
+package bloco1.aula02exercicios;
 import java.util.Scanner;
 //dada final double COTACAO = 5.42; e um valor em dólares, imprima o valor em reais formatado. Depois
 

@@ -1,4 +1,4 @@
-package aula02exercicios;
+package bloco1.aula02exercicios;
 
 public class Previsao {
     public static void main() {

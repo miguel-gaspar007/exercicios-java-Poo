@@ -1,4 +1,4 @@
-package aula02exercicios;
+package bloco1.aula02exercicios;
 import java.util.Scanner;
 public class Apresentacao {
     public static void main() {

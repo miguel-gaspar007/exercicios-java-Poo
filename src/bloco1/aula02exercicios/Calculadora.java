@@ -1,4 +1,4 @@
-package aula02exercicios;
+package bloco1.aula02exercicios;
 import java.util.Scanner;
 public class Calculadora {
     //leia dois números double do teclado com Scanner e imprima soma,
