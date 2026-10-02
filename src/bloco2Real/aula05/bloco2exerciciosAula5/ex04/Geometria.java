@@ -1,4 +1,4 @@
-package ex04;
+package bloco2Real.aula05.bloco2exerciciosAula5.ex04;
 
 // Crie um Retangulo[] com 3 objetos e imprima a área de todos com um for-each;
 public class Geometria {

@@ -1,4 +1,4 @@
-package ex02;
+package bloco2Real.aula05.bloco2exerciciosAula5.ex02;
 import java.util.Scanner;
 //ContaBancaria.java + Banco.java — atributos titular, numero e saldo; métodos depositar(double valor),
 // sacar(double valor) (que só saca se houver saldo, imprimindo aviso caso contrário) e exibirExtrato().

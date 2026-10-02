@@ -1,4 +1,4 @@
-package ex04;
+package bloco2Real.aula05.bloco2exerciciosAula5.ex04;
 
 // Retangulo.java + Geometria.java — a classe recebe base e altura pelo construtor e oferece calcularArea(),
 // calcularPerimetro() e ehQuadrado().

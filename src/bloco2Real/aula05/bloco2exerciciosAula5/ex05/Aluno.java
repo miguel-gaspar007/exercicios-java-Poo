@@ -1,4 +1,4 @@
-package ex05;
+package bloco2Real.aula05.bloco2exerciciosAula5.ex05;
 // Desafio 🌶️ Aluno.java + Turma.java — refaça o Desafio da Aula 04 (boletim de 3 alunos) usando a classe Aluno com
 // construtor, um Aluno[] e um laço. No fim do arquivo, escreva num comentário quantas linhas cada versão tem e o que
 // ficou mais fácil de mudar.
@@ -16,7 +16,7 @@ public class Aluno {
     }
 
     public double calcularMedia(){
-        double mediaAluno = ((this.nota1 + this.nota2 + this.nota3) / 3 );
+        double mediaAluno = ((this.nota1 + this.nota2 + this.nota3) / 3.0 );
         return(mediaAluno);
     }
     public void exibirBoletim(){

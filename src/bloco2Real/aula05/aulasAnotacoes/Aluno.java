@@ -1,4 +1,4 @@
-package bloco2.aula05.aulasAnotacoes;
+package bloco2Real.aula05.aulasAnotacoes;
 
 public class Aluno {
     String nome;

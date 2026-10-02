@@ -1,4 +1,4 @@
-package ex02;
+package bloco2Real.aula05.bloco2exerciciosAula5.ex02;
 
 
 //Referencia.java — crie um objeto ContaBancaria, atribua a uma segunda variável, deposite pela segunda variável e

@@ -1,4 +1,4 @@
-package ex01;
+package bloco2Real.aula05.bloco2exerciciosAula5.ex01;
 
 
 //a classe ex01.Livro tem titulo, autor, paginas e disponivel, mais os métodos emprestar(), devolver() e exibirFicha().

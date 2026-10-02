@@ -1,5 +1,5 @@
 
-package ex05;
+package bloco2Real.aula05.bloco2exerciciosAula5.ex05;
 public class Turma {
     public static void main(String[] args) {
         Aluno cleber = new Aluno("Miguel", 10, 5, 6);
