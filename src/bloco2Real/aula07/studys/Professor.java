@@ -8,11 +8,8 @@ public class Professor extends Pessoa{
     }
     public double calcularSalarioAnual(){return salario * 13;}
 
-    public static void main(String[] args) {
-        Professor prof = new Professor("Cleber","42017263800", 19, 20000.00);
-        System.out.println(prof.calcularSalarioAnual());
-
-    }
+    @Override
+    public String toString(){return super.toString() + String.format("Salário mensal: %.2f  || Salário anual: %.2f",salario,calcularSalarioAnual());}
 
 
 

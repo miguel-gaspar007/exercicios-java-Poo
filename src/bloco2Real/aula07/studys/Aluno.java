@@ -15,6 +15,13 @@ public class Aluno extends Pessoa{
         return soma / notas.length;
     }
 
+    public double setNotas(double[] notas){
+        for (double n: notas){
+
+
+        }
+    }
+
     public boolean situacao(){
         double media = this.calcularMedia();
         if( media >=6.5){
