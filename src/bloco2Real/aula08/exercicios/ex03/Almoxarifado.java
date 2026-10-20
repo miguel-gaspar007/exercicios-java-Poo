@@ -19,7 +19,7 @@ public class Almoxarifado {
     public static void main(String[] args) {
         Emprestavel[] itemArray = {
                 new Livro("CASEBRE","Dom Casmurro"),
-                new Projetor("XDC-9000")
+                new Projetor("XDC-9000","11111")
         };
         emprestarTodos(itemArray,"Miguel");
 
